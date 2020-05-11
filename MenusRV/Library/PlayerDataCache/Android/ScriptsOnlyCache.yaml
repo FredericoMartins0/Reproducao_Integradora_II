@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - GoogleVR.Demos.DemoSceneManager
     - GoogleVR.HelloVR.HeadsetDemoManager
     - GoogleVR.HelloVR.HelloVRManager
-    - GoogleVR.HelloVR.ObjectController
     - Gvr.Internal.InstantPreview
     - GvrArmModel
     - GvrControllerInput
@@ -21,6 +20,7 @@ ScriptsOnlyBuild:
     - GvrReticlePointer
     - GvrTrackedController
     - InstantPreviewHelper
+    - TimerController
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -35,7 +35,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -69,66 +68,62 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11854}
+      Script: {instanceID: 11248}
+    - Class: 114
+      Script: {instanceID: 11292}
+    - Class: 114
+      Script: {instanceID: 11488}
+    - Class: 114
+      Script: {instanceID: 11544}
+    - Class: 114
+      Script: {instanceID: 11700}
+    - Class: 114
+      Script: {instanceID: 11766}
+    - Class: 114
+      Script: {instanceID: 11790}
     - Class: 114
       Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 12092}
+      Script: {instanceID: 12102}
     - Class: 114
-      Script: {instanceID: 12148}
+      Script: {instanceID: 12602}
     - Class: 114
-      Script: {instanceID: 12302}
+      Script: {instanceID: 12640}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 12684}
     - Class: 114
-      Script: {instanceID: 12392}
+      Script: {instanceID: 12846}
     - Class: 114
-      Script: {instanceID: 12500}
+      Script: {instanceID: 13026}
     - Class: 114
-      Script: {instanceID: 12702}
+      Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 13198}
+      Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13236}
+      Script: {instanceID: 13224}
     - Class: 114
-      Script: {instanceID: 13280}
+      Script: {instanceID: 13302}
     - Class: 114
-      Script: {instanceID: 13442}
+      Script: {instanceID: 13352}
     - Class: 114
-      Script: {instanceID: 13558}
+      Script: {instanceID: 13398}
     - Class: 114
-      Script: {instanceID: 13622}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13734}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 13738}
+      Script: {instanceID: 13888}
     - Class: 114
-      Script: {instanceID: 13820}
+      Script: {instanceID: 13902}
     - Class: 114
-      Script: {instanceID: 13898}
+      Script: {instanceID: 13916}
     - Class: 114
-      Script: {instanceID: 13948}
-    - Class: 114
-      Script: {instanceID: 13994}
-    - Class: 114
-      Script: {instanceID: 14012}
-    - Class: 114
-      Script: {instanceID: 14368}
-    - Class: 114
-      Script: {instanceID: 14410}
-    - Class: 114
-      Script: {instanceID: 14482}
-    - Class: 114
-      Script: {instanceID: 14496}
-    - Class: 114
-      Script: {instanceID: 14510}
+      Script: {instanceID: 25968}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -150,6 +145,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -968,6 +969,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d409cf8c86e8aa2216be740e1fde1d0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerController
   platform: 13
   scenePathNames:
   - Assets/GoogleVR/Demos/Scenes/HelloVR.unity
